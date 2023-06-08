@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <img src="montana.png" alt="Montaña" class="image">
+        <div id="arriba">
+            <h1 class="title">Convertidor de Temperaturas</h1>
+            <div class="input-container">
+                <span class="input-label">Grados</span>
+                <input type="number" id="input-celsius" class="input" placeholder="Introducir">
+                <button onclick="convertToFahrenheit()" class="button">Cº a Fahrenheit</button>
+                <button onclick="convertToKelvin()" class="button">Cº a Kelvin</button>
+            </div> 
+        </div>       
+        <table id="conversion-table" class="table">
+            <tr>
+                <th>Grados Centígrados</th>
+                <th>Grados</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
